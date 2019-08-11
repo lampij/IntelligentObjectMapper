@@ -4,7 +4,7 @@ and then from that point derive the information we're going to need to complete 
 two given models.
 
 TODO:
-    [ ] Serialize a given object
+    [X] Serialize a given object
     [ ] Understand the relationships between nested objects and their parents
         [ ] i.e does a 'kitchen' object always have a 'sink' object
     [ ] Do natural keys exist in the given data?
