@@ -13,17 +13,22 @@ TODO:
 
 using System;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace IOM.Internals.Readers
 {
     public class MetadataReader<T>
     {
-        public string _InternalSerializedObject { get; set; }
-        public T _InternalDeserializedObject {get; set;}
 
-        public MetadataReader(T obj){
+        /*We will have to decide at some point if is worth keeping state in this class. */
+        public string _InternalSerializedObject { get; set; }
+        public T _InternalDeserializedObject { get; set; }
+
+        #region Constructors & Init
+        public MetadataReader(T obj)
+        {
             _InternalDeserializedObject = obj;
-            _InternalSerializedObject = JsonConvert.SerializeObject(obj); 
+            _InternalSerializedObject = JsonConvert.SerializeObject(obj);
         }
 
         public static MetadataReader<T> From(string serializedData)
@@ -43,5 +48,20 @@ namespace IOM.Internals.Readers
             // Maybe a class generator? 
             throw new NotImplementedException();
         }
+        #endregion
+
+
+        /*Okay so we need to to do some object relationship mapping here */
+        /*Ideally, we want to split this up into the smallest possible problems. */
+        /*Also, we're going to need to build some kind of 'relationship' model...but we'll get to that later, for now, maybe just some string data will be fine.*/
+
+        public static void GetRelationships(string jsonObject){
+            JObject strippedObject = (JObject)JsonConvert.DeserializeObject(jsonObject);
+            foreach (var item in strippedObject)
+            {
+                Console.Write(item.Value);
+            }
+        }
+        
     }
 }

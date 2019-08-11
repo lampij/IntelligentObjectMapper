@@ -2,6 +2,7 @@ using System;
 using NUnit.Framework;
 using IOM.Internals.Readers;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Tests.MetadataReaderTests
 {
@@ -42,6 +43,15 @@ namespace Tests.MetadataReaderTests
             Assert.IsTrue(readerFromSerializedObject._InternalDeserializedObject.Day == DateTime.Now.Day);
             Assert.IsTrue(readerFromSerializedObject._InternalDeserializedObject.Month == DateTime.Now.Month);
             Assert.IsTrue(readerFromSerializedObject._InternalDeserializedObject.Year == DateTime.Now.Year);
+        }
+
+        [TestCase]
+        public void TestSimpleRelationship(){
+            MetadataReader<DateTime> readerFromSerializedObject = MetadataReader<DateTime>.From(JsonConvert.SerializeObject(DateTime.Now));
+            MetadataReader<JObject>.GetRelationships(readerFromSerializedObject._InternalSerializedObject);
+
+            //Assert Fail for now, because this isn't even a real test.
+            Assert.Fail();
         }
     }
 }
