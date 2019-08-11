@@ -1,0 +1,9 @@
+/home/lampi/IntelligentObjectMapper/bin/Debug/netstandard2.0/IntelligentObjectMapper.deps.json
+/home/lampi/IntelligentObjectMapper/bin/Debug/netstandard2.0/IntelligentObjectMapper.dll
+/home/lampi/IntelligentObjectMapper/bin/Debug/netstandard2.0/IntelligentObjectMapper.pdb
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.csprojAssemblyReference.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.csproj.CoreCompileInputs.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.AssemblyInfoInputs.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.AssemblyInfo.cs
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.dll
+/home/lampi/IntelligentObjectMapper/obj/Debug/netstandard2.0/IntelligentObjectMapper.pdb

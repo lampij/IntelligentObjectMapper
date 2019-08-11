@@ -1,0 +1,14 @@
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/IntelligentObjectMapper.deps.json
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/IntelligentObjectMapper.runtimeconfig.json
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/IntelligentObjectMapper.runtimeconfig.dev.json
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/IntelligentObjectMapper.dll
+/home/lampi/IntelligentObjectMapper/bin/Debug/netcoreapp2.2/IntelligentObjectMapper.pdb
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.csprojAssemblyReference.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.csproj.CoreCompileInputs.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.AssemblyInfoInputs.cache
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.AssemblyInfo.cs
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.dll
+/home/lampi/IntelligentObjectMapper/obj/Debug/netcoreapp2.2/IntelligentObjectMapper.pdb
